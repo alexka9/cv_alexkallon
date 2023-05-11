@@ -1,41 +1,31 @@
-
-@font-face {
-	font-family: 'Montserrat';
-	src: url('Montserrat-Regular.ttf') format('truetype');
+body {
+	font-family: 'Montserrat', sans-serif;
 	font-weight: normal;
 	font-style: normal;
 }
-
 body {
 	margin: 0;
 	padding: 0;
 	font-family: 'Montserrat', sans-serif;
-	font-size: 16px;
-	line-height: 1.5;
+	line-height: 2.5;
 	color: #333;
 	background-color: #f2f2f2;
 }
-
 header {
-	background-color: #0077b6;
+	background-color: #0067b6;
 	color: #fff;
-	padding: 40px;
 	text-align: center;
 }
-
 h1 {
 	margin: 0;
 	font-size: 48px;
 }
-
 .contacto {
 	margin-top: 30px;
 }
-
 .contacto p {
 	margin: 0;
 }
-
 .div {
 	background-color: #fff;
 	box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
@@ -51,11 +41,24 @@ div ul {
 	display: flex;
 	justify-content: space-around;
 }
-
 div li {
 	margin: 0 10px;
 }
-
+#estilos{
+	font-size: 18px;
+}
+#experiencia{
+	font-size: 30px;
+}
+#educacion{
+	font-size: 30px;
+}
+#habilidades{
+	font-size: 30px;
+}
+#experiencia{
+	font-size: 30px;
+}
 div a {
 	color: #333;
 	text-decoration: none;
@@ -68,28 +71,26 @@ div a:hover {
 	background-color: #0077b6;
 	color: #fff;
 }
-
 article {
 	background-color: #fff;
 	box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
 	padding: 30px;
 	margin: 20px 0;
 }
-
 .empresa {
 	margin: 0;
 	font-size: 24px;
 }
-
 .fecha {
-	margin-top: 10px;
+	margin-top: 23px;
+	font-size: 20px;
 	font-style: italic;
 }
-
 .habilidades {
 	display: flex;
 	justify-content: space-around;
 	flex-wrap: wrap;
+	font-size: 20px;
 }
 
 .habilidades ul {
@@ -115,4 +116,34 @@ footer {
 img{
 	width: 250px;
 	height: 190px;
+}
+iframe{
+	text-align: right;
+	width: 460px; 
+	height: 315px;
+}
+@media only screen and (max-width:700px){
+	.habilidades li{
+		margin: 2px;
+		padding: 2px;
+		border-radius: 2px;
+	}
+	h1 {
+		margin: 0;
+		font-size: 28px;
+	}
+	iframe {
+		text-align: right;
+	    width: 360px; 
+	    height: 215px;
+	}
+	.habilidades li {
+		margin: 1.5px;
+		padding: 1.5px;
+		border-radius: 1.5px;
+	}
+    #estilos{
+		text-align: center;
+		font-size: 14px;
+	}
 }
